@@ -1,11 +1,11 @@
 # Project-RockPaperScissor-Game
 This project aims to create a Rock Paper Scissor game which is based on Command Line Interface (CLI) by using OOP concepts in C++ Programming language. This program/game allows the user to play against the computer.
-#Objectives:
+# Objectives:
 The objectives of the project are:
 •	Implement a functional Rock Paper Scissors game with user input and computer-generated moves.
 •	Use OOP C++ programming concepts such as classes, constructors, functions, random number generation, and control structures.
 •	Provide a simple user interface and a scoring system.
-#Code Overview:
+# Code Overview:
 		This code has been created by using several functions to handle different aspects of the program.
 •	Player: Created class and named it  “Player”.
 •	Getter and Setter: Added getter and setters to get and set values of Name, Move, and points.
@@ -17,7 +17,7 @@ The objectives of the project are:
 •	Play: Manages the flow of the game including player inputs, result display, and the option to play again. 
 •	main: This main function handles all the program/game flow including all the above classes, functions and loop.
 
-#Key Features:
+# Key Features:
 •	Random Number Generation: The rand() function is used to generate a random number for the computer's move. The srand(time(0)) function used for the random number generator with the current time to ensure a different sequence of random numbers in each run.
 •	User Input Validation: The PlayerMove function ensures that the user's input is valid (Rock, Paper, or Scissors). It uses a while loop for continuous input until a valid choice is made.
 •	Game Loop: The do-while loop in the main function allows the user to play multiple rounds. The loop continues until the user decides not to play again.
